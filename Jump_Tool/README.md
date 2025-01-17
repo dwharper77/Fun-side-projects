@@ -37,6 +37,7 @@ The script performs the following steps:
 
 - Ensure that the screen resolution and game window positions match the coordinates used in the script.
 - The script includes delays (`time.sleep()`) to account for loading times. Adjust these values if necessary.
+- I used mouse_coordinates.py tool I wrote (also included in this repository) to get the coordinates from my screen for this automation
 
 ## License
 
