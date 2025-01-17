@@ -3,9 +3,12 @@ import time
 import pyautogui
 import tkinter as tk
 from tkinter import messagebox
+'''
+This was meant to automate logging into and navigation within the game.
+'''
 
 # Path to the GeForce NOW shortcut
-shortcut_path = r"C:\Users\Dennis.Harper\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\NVIDIA GeForce NOW.lnk"
+shortcut_path = r"C:\Users\yourpath\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\NVIDIA GeForce NOW.lnk"
 
 # Open GeForce NOW using the shortcut
 os.startfile(shortcut_path)
