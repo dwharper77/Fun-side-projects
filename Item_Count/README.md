@@ -53,10 +53,12 @@ This is a graphical user interface (GUI) application for detecting and counting 
 
 ## Example
 
+Selected Images:
 ![81 parts](https://github.com/user-attachments/assets/f46aa2cf-a465-4d0f-85e9-003a094188f6)
 
 ![1134 tools](https://github.com/user-attachments/assets/b379b7e1-5047-424e-9461-e9dec3995a31)
 
+Detected Item Output
 ![detected_items_81 parts](https://github.com/user-attachments/assets/8f264603-13ed-4765-9908-11d228f7aeda)
 
 ![detected_items_1134 tools](https://github.com/user-attachments/assets/58f83a27-1605-450a-952d-f7a1c64f9d2e)
