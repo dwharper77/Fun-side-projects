@@ -1,4 +1,4 @@
-# Call Test and KPI Tool
+# KPI Tool
 
 This tool is designed to automate the process of analyzing call test data and Key Performance Indicators (KPIs) using a graphical user interface (GUI) built with Tkinter.
 
@@ -30,19 +30,24 @@ This tool is designed to automate the process of analyzing call test data and Ke
     python PSAP_SIM_KPI_Tool.py
     ```
 2. The GUI will open. Click the "Click here to begin" button to start the process.
+![KPI1](https://github.com/user-attachments/assets/26cfae3f-dca6-4cb5-9f56-5f97d3216c90)
 
 3. Select the Quantum Info and PSAP Sim Excel files when prompted.
+![KPI2](https://github.com/user-attachments/assets/d1b49b3e-d514-466c-9a04-e1201016de8f)
 
 4. The tool combines the PSAP SIM and KPI data
+![KPI3](https://github.com/user-attachments/assets/784f881f-13f1-4aa9-aa8d-8f9e0896387d)
 
 5. Use the radials to choose which Group of KPIs to view
 
-4. Use the dropdown menu to select a sector/timestamp combination.
+6. Use the dropdown menu to select a sector/timestamp combination.
 
-5. View detailed information and KPI sections in the console windows.
+7 View detailed information and KPI sections in the console windows.
+![KPI4](https://github.com/user-attachments/assets/d55ec29a-6bb7-47fe-b7ce-524dbb01ed7e)
 
-6. Use the second dropdown menu to select which KPI to view then click "Plot 5-Day Trend" to visualize the data.
-    !Step 6
+8. Use the second dropdown menu to select which KPI to view then click "Plot 5-Day Trend" to visualize the data.
+![KPI5](https://github.com/user-attachments/assets/2918cd9e-894f-4deb-8288-b62ed3cacf22)
+
 
 ## Code
 The source code is available in this repository for reference. While the code may not be fully functional without the necessary data, it provides insight into the tool's implementation.
