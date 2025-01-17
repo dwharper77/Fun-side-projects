@@ -1,66 +1,51 @@
-# Item_Count
+# Call Test and KPI Tool
 
-## Description
-This is a graphical user interface (GUI) application for detecting and counting items in images using OpenCV and Tkinter. The application allows users to select multiple images, detect items within those images, and save the results.
+This tool is designed to automate the process of analyzing call test data and Key Performance Indicators (KPIs) using a graphical user interface (GUI) built with Tkinter.
 
 ## Features
-
-- Detects items in images based on contours.
-- Option to filter items by shape (circularity).
-- Displays the number of detected items in a console window.
-- Saves the images with detected items highlighted.
+- **Graphical User Interface**: Built with Tkinter to provide an intuitive and interactive experience.
+- **Data Processing**: Utilizes pandas for efficient data manipulation and openpyxl/xlrd for handling Excel files.
+- **File Selection**: Allows users to select Quantum Info and PSAP Sim files through a file dialog.
+- **Detailed Information Display**: Shows detailed information based on selected sector/timestamp combinations.
+- **KPI Sections**: Provides options to view different KPI sections: Accessibility, Retainability, Traffic, and Mobility.
+- **Trend Plotting**: Plots a 5-day trend for selected columns using Matplotlib.
+- **Console Logging**: Displays information and KPI details in Tkinter text widgets for easy viewing.
+- **Error Handling**: Displays error messages using messagebox for better user experience.
+- **Output**: Saves combined data to a new Excel file for further analysis.
 
 ## Requirements
 
 - Python 3.x
-- OpenCV
-- Tkinter
 - NumPy
-
-## Installation
-
-1. Clone the repository or download the code.
-2. Install the required packages using pip:
-
-    ```bash
-    pip install opencv-python-headless numpy
-    ```
+- Tkinter
+- Pandas
+- Openpyxl
+- xlrd
+- Matplotlib
 
 ## Usage
 
 1. Run the script:
-
-    ```bash
-    python Item_count.py
+    ```sh
+    python PSAP_SIM_KPI_Tool.py
     ```
+2. The GUI will open. Click the "Click here to begin" button to start the process.
 
-2. The GUI will open. Click the "Select Images" button to choose the images you want to process.
-    !I_C_1 Image
-3. A prompt will ask if all items are the same shape. Choose "Yes" or "No" based on your images.
-4. The application will process the images and display the number of detected items in the console window.
-    !I_C_2 Image
-5. The processed images with detected items highlighted will be saved in the same directory as the original images.
-    !I_C_3 Image
+3. Select the Quantum Info and PSAP Sim Excel files when prompted.
 
-## Code Overview
+4. The tool combines the PSAP SIM and KPI data
 
-- `detect_items(image_path, same_shape)`: Detects items in the given image and saves the result.
-- `select_images()`: Prompts the user to select images and performs item detection.
-- GUI setup using Tkinter.
+5. Use the radials to choose which Group of KPIs to view
 
-## Example
+4. Use the dropdown menu to select a sector/timestamp combination.
 
-!81 parts Image
+5. View detailed information and KPI sections in the console windows.
 
-!1134 tools Image
+6. Use the second dropdown menu to select which KPI to view then click "Plot 5-Day Trend" to visualize the data.
+    !Step 6
 
-!detected_items_81 parts Image
-
-!detected_items_1134 tools Image
-
-## License
-
-This project is not licensed.
+## Code
+The source code is available in this repository for reference. While the code may not be fully functional without the necessary data, it provides insight into the tool's implementation.
 
 ## Contact
 For any questions or issues, please contact:
