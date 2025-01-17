@@ -33,14 +33,16 @@ This tool is designed to automate the process of analyzing call test data and Ke
 ![KPI1](https://github.com/user-attachments/assets/26cfae3f-dca6-4cb5-9f56-5f97d3216c90)
 
 3. Select the Quantum Info and PSAP Sim Excel files when prompted.
+
+
 ![KPI2](https://github.com/user-attachments/assets/d1b49b3e-d514-466c-9a04-e1201016de8f)
 
-4. The tool combines the PSAP SIM and KPI data.
+5. The tool combines the PSAP SIM and KPI data.
 ![KPI3](https://github.com/user-attachments/assets/784f881f-13f1-4aa9-aa8d-8f9e0896387d)
 
-5. Use the radials to choose which Group of KPIs to view.
+6. Use the radials to choose which Group of KPIs to view.
 
-6. Use the dropdown menu to select a sector/timestamp combination.
+7. Use the dropdown menu to select a sector/timestamp combination.
 
 7 View detailed information and KPI sections in the console windows.
 ![KPI4](https://github.com/user-attachments/assets/d55ec29a-6bb7-47fe-b7ce-524dbb01ed7e)
