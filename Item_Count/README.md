@@ -42,6 +42,7 @@ This is a graphical user interface (GUI) application for detecting and counting 
     ![I_C_2](https://github.com/user-attachments/assets/48eeee4e-664a-483c-8e4d-ab1192e3b744)
 
 5. The processed images with detected items highlighted will be saved in the same directory as the original images.
+6. I wrote the duplicate_image.py tool also included in this repository to create the duplicate images.
     
 
 
