@@ -35,12 +35,15 @@ This is a graphical user interface (GUI) application for detecting and counting 
     ```
 
 2. The GUI will open. Click the "Select Images" button to choose the images you want to process.
-    !I_C_1 Image
+   ![I_C_1](https://github.com/user-attachments/assets/78b7b840-97c8-433e-a24c-f42cdf380767)
+
 3. A prompt will ask if all items are the same shape. Choose "Yes" or "No" based on your images.
 4. The application will process the images and display the number of detected items in the console window.
-    !I_C_2 Image
+    ![I_C_2](https://github.com/user-attachments/assets/48eeee4e-664a-483c-8e4d-ab1192e3b744)
+
 5. The processed images with detected items highlighted will be saved in the same directory as the original images.
-    !I_C_3 Image
+    ![I_C_3](https://github.com/user-attachments/assets/b98479b1-a85d-4366-bbd3-7a80f123150b)
+
 
 ## Code Overview
 
